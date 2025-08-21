@@ -1,4 +1,4 @@
-import ReactDOMClient from 'react-dom/client'
+import ReactDOMClient from 'react-dom/client';
 import { App } from './view/App'
 import { GlobalStyle as ResetCSS } from './styles/reset.styles.ts';
 import { BrowserRouter } from 'react-router-dom';

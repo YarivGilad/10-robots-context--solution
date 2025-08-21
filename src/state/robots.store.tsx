@@ -13,7 +13,9 @@ interface RoboStoreType {
 }
 
 const RoboStore = createContext<RoboStoreType | null>(null);
+
 const { Provider } = RoboStore;
+
 
 const useRobots = () => {
   const context = useContext(RoboStore);
@@ -24,8 +26,8 @@ const useRobots = () => {
 };
 
 interface RoboProviderProps {
-    children?: ReactNode;
-  }
+  children?: ReactNode;
+}
 
 const RoboProvider = ({ children }: RoboProviderProps) => {
   const [robotsList, setRobotsList] = useState<Robot[]>([]);

@@ -1,11 +1,9 @@
 import styled from "styled-components";
-import { useEffect, useState } from "react";
 import { List } from "./list.tsx";
-import { Robot } from "../types.ts";
+
 import { Filter } from "./filter.tsx";
 import { Profile } from "./profile.tsx";
-import { TopBar } from "./topBar.tsx";
-// import { getRobotsList } from "../api/robots.api.ts";
+
 import { useRobots } from "../state/robots.store";
 
 
